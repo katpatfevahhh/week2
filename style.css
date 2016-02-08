@@ -4,15 +4,24 @@ body {
 
 div {
 	width: 100%;
-	height: 30px;
-	background-color: white;
+	height: 600px;
 	width: 100%;
 	margin: auto;
 }
 
+div.bottombar{
+	width: 100%;
+	height: 100px;
+	background-color: #238f8f;
+    color: white;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto
+}
+
 h1 {
-	font-size: 60px;
-	font-family: 'Montserrat', sans-serif;
+	font-size: 80px;
+	font-family: 'Lobster', sans-serif;
 	margin: auto;
 	text-align: center;
 	vertical-align: middle;
@@ -22,10 +31,21 @@ h1 {
 }
 
 h2{
-	font-size: 20px;
-	font-size: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 700;
 	margin: auto;
 	color: #262626;
+}
+
+h3{
+	font-size: 12px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	margin: auto;
+	text-align: center;
+	color: white;
+	padding-top: 30px;
 }
 
 ul {
@@ -35,9 +55,12 @@ ul {
 
 .img-circle {
     border-radius: 50%;
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
     padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .img-circlesmall {
@@ -46,19 +69,30 @@ ul {
     width: 100px;
 }
 
+
 a:link, a:visited {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Arimo', sans-serif;
     background-color: white;
     color: #BEB227;
     padding: 14px 25px;
     text-decoration: none;
-    display: inline-block;
     vertical-align: bottom;
-
+    
 }
 
 
 a:hover, a:active {
-    background-color: #238f8f;
+    background-color: #262626;
+    color: white;
+}
+
+a.contact {
+	background-color: #238f8f;
+    color: white;
+    border-style: white 2px;
+}
+
+a.contact:hover, a.contact:active {
+    background-color: #262626;
     color: white;
 }
